@@ -1,8 +1,30 @@
 footer {
-    padding: 80px;
-    background-color: aqua;
-    height: 40vh;
+    background-color: rgb(124, 124, 124);
+    color: white;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    height: 35vh;
+    padding: 60px;
+    border-top: 8px solid rgb(185, 185, 185);
+}
+
+footer > div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.box__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
 }
