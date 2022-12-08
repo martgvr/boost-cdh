@@ -3,7 +3,11 @@ import './main.css'
 
 function Main() {
   return (
-    <div className='main'>Main</div>
+    <div className='main'>
+      <div>Main</div>
+      <div className='shapedividers_com-9350'></div>
+    </div>
+    
   )
 }
 

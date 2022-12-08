@@ -4,7 +4,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 35vh;
+    height: 25vh;
     padding: 60px;
     border-top: 8px solid rgb(185, 185, 185);
 }
