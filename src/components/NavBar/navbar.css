@@ -2,16 +2,14 @@
     background-color: #252526;
     color: white;
     height: 101px;
-    padding: 0 20px;
+    padding: 0 100px;
 
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-between;
 }
 
-
 .navbar__logo {
-    position: absolute;
     width: 137px;
     height: 40px;
     left: 100px;
@@ -20,7 +18,7 @@
 
 .navbar__menu {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     width: 70%;
     height: 100%;
