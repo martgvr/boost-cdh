@@ -6,10 +6,11 @@
     padding: 16px 57px;
     gap: 10px;
 
-    width: 190px;
+    /* width: 190px; */
     height: 60px;
 
     background: #75BFB2;
+    color: white;
     border-radius: 16px;
 
     font-family: 'Montserrat';
@@ -25,4 +26,8 @@
 .button:hover {
     background-color: #f29422;
     cursor: pointer;
+}
+
+.navbar__menu *:last-of-type {
+    width: 190px;
 }

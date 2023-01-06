@@ -35,13 +35,16 @@
 }
 
 .text__container {
-    width: 70%;
-    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 60%;
+    height: 701px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 70px;
+    padding: 20px;
 }
 
 .text__container img {
@@ -56,7 +59,8 @@
     line-height: 18px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #FEFFFE;
+    color: white;
+    text-align: center;
 }
 
 .p2 {
@@ -73,4 +77,12 @@
 .p2 img:last-of-type {
     width: 191px;
     height: 55px;
+}
+
+.p3 {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
 }

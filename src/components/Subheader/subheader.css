@@ -1,4 +1,7 @@
 .subheader {
     background-color: #F3F3F3;
     height: 300px;
+
+    display: flex;
+    justify-content: space-around;
 }
