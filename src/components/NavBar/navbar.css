@@ -9,11 +9,9 @@
     justify-content: space-between;
 }
 
-.navbar__logo {
+.navbar__logo img {
     width: 137px;
     height: 40px;
-    left: 100px;
-    top: 30px;
 }
 
 .navbar__menu {
