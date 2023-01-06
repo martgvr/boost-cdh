@@ -1,15 +1,17 @@
 import './App.css';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
-import Main from './components/Main/Main';
-import NavBar from './components/NavBar/NavBar';
-import Social from './components/Social/Social';
+import Prices from './components/Prices/Prices';
+import Welcome from './components/Welcome/Welcome';
 
 function App() {
   return (
     <>
-      <NavBar />
-      <Main />
-      <Social />
+      <Welcome />
+      <About />
+      <Prices />
+      <Contact />
       <Footer />
     </>
   );
