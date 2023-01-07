@@ -7,20 +7,17 @@
 }
 
 .who h4:last-of-type {
-    margin-bottom: 431px;
+    margin-bottom: 289px;
 }
 
 .who__box {
     height: 349px;
     width: 100%;
     background-color: rgba(117, 191, 178, 0.7);
-
     padding: 40px 100px;
-
     display: flex;
     flex-direction: column;
     gap: 43px;
-
     margin-bottom: 100px;
 }
 
@@ -54,15 +51,15 @@
     position: absolute;
     width: 506px;
     height: 431px;
-    left: 834px;
-    top: 1903px;
+    left: 1300px;
+    top: 1930px;
 }
 
 .who img {
     position: absolute;
     width: 284px;
     height: 468px;
-    left: 634px;
-    top: 2083px;
+    left: 1100px;
+    top: 2150px;
     border-radius: 16px;
 }

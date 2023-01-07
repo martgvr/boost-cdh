@@ -1,0 +1,6 @@
+.services {
+    padding: 142px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
