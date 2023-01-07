@@ -86,3 +86,7 @@
     line-height: 25px;
     text-align: center;
 }
+
+.circle {
+    position: absolute;
+}
