@@ -20,7 +20,7 @@ function Contact() {
             <input type="text" name="" id="" placeholder='Correo electrónico' />
             <input type="text" name="" id="" placeholder='Motivo de consulta' />
             <textarea rows="5" cols="60" name="text" placeholder="Tu mensaje"></textarea>
-            <Button text={'Enviar'}/>
+            <Button text={'Enviar'} width={'176px'} />
           </form>
         </div>
       </div>

@@ -14,7 +14,7 @@ function NavBar() {
         <li className="navbar__menu--item">¿Quiénes somos?</li>
         <li className="navbar__menu--item">Tarifario</li>
         <li className="navbar__menu--item">Servicios</li>
-        <Button text={'Contactanos'} />
+        <Button text={'Contactanos'} width={'190px'} />
       </ul>
     </nav>
   );

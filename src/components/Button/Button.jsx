@@ -1,9 +1,9 @@
 import React from 'react'
 import './button.css'
 
-function Button({ text }) {
+function Button({ text, width }) {
   return (
-    <div className='button'>{text}</div>
+    <div className='button' style={{ width: width }}>{text}</div>
   )
 }
 
