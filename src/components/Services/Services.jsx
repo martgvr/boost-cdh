@@ -4,7 +4,7 @@ import './services.css'
 
 function Services() {
   return (
-    <div className='services'>
+    <div className='services' id='services'>
       <ServiceCard 
         layout={'left'} 
         title={'nuestros servicios'} 

@@ -4,7 +4,7 @@ import './prices.css'
 
 function Prices() {
   return (
-    <div className='prices'>
+    <div className='prices' id='prices'>
       <h1>Tarifario</h1>
       <div className='prices__subtitle'>
         <p>Drop</p>

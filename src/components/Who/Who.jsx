@@ -3,7 +3,7 @@ import './who.css'
 
 function Who() {
   return (
-    <div className='who'>
+    <div className='who' id='who'>
         <div className='who__box'>
             <h3 className='who__title'>¿Quiénes somos?</h3>
             <h2 className='who__subtitle'>Somos una agencia digital creativa en el mundo online</h2>

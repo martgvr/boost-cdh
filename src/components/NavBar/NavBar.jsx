@@ -11,10 +11,10 @@ function NavBar() {
       
       <ul className="navbar__menu">
         <li className="navbar__menu--item active">Inicio</li>
-        <li className="navbar__menu--item">¿Quiénes somos?</li>
-        <li className="navbar__menu--item">Tarifario</li>
-        <li className="navbar__menu--item">Servicios</li>
-        <Button text={'Contactanos'} width={'190px'} />
+        <li className="navbar__menu--item"><a href="#who">¿Quiénes somos?</a></li>
+        <li className="navbar__menu--item"><a href="#services">Servicios</a></li>
+        <li className="navbar__menu--item"><a href="#prices">Tarifario</a></li>
+        <a href="#contact"><Button text={'Contactanos'} width={'190px'} /></a>
       </ul>
     </nav>
   );
