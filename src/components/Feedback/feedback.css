@@ -1,5 +1,6 @@
 .feedback__container {
     background-color: #252526;
+    overflow: hidden;
 }
 
 .feedback__container--title {

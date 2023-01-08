@@ -3,4 +3,5 @@
     gap: 18.3px;
     display: flex;
     padding-bottom: 160px;
+    width: fit-content;
 }
