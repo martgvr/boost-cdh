@@ -21,6 +21,7 @@
     width: 70%;
     height: 100%;
     font-weight: bold;
+    z-index: 3;
 }
 
 .navbar__menu--item {
