@@ -1,3 +1,6 @@
+.who {
+    background-color: #F3F3F3;
+}
 .who h4 {
     padding: 15px 100px;
     font-weight: 500;
@@ -7,7 +10,7 @@
 }
 
 .who h4:last-of-type {
-    margin-bottom: 289px;
+    padding-bottom: 289px;
 }
 
 .who__box {

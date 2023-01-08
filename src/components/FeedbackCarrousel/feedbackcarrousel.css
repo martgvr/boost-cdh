@@ -1,3 +1,6 @@
 .feedbackcarrousel {
-    color: #FFFFFF;
+    padding: 28px 72px;
+    gap: 18.3px;
+    display: flex;
+    padding-bottom: 160px;
 }
