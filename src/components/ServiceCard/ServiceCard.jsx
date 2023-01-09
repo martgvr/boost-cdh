@@ -3,7 +3,7 @@ import './servicecard.css'
 
 function ServiceCard({ image, title, subtitle, description, items, layout }) {
   return (
-    <div className='servicecard' style={{flexDirection: layout == 'right' && 'row-reverse'}}>
+    <div className='servicecard' style={{flexDirection: layout === 'right' && 'row-reverse'}}>
         <div className='servicecard__image'>
             <img src={image} alt="" />
         </div>

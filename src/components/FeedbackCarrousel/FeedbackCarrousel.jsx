@@ -2,9 +2,22 @@ import React from 'react'
 import FeedbackCard from '../FeedbackCard/FeedbackCard'
 import './feedbackcarrousel.css'
 
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+
+const responsive = {
+  desktop: { breakpoint: { max: 2000, min: 1024 }, items: 2, slidesToSlide: 3 },
+    tablet: { breakpoint: { max: 1700, min: 464 }, items: 2, slidesToSlide: 2 },
+    mobile: { breakpoint: { max: 900, min: 0 }, items: 1, slidesToSlide: 1 }
+};
+
+const CustomDot = ({ onMove, index, onClick, active }) => {
+  return <li className={active ? "activeDot" : "inactiveDot"} onClick={() => onClick()}></li>;
+};
+
 function FeedbackCarrousel() {
   return (
-    <div className='feedbackcarrousel'>
+    <Carousel partialVisible={false} centerMode={true} arrows={false} responsive={responsive} showDots={true} className='feedbackcarrousel' customDot={<CustomDot />} >
       <FeedbackCard 
         text={'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.'} 
         author={'Julián Alvarez'} 
@@ -29,7 +42,7 @@ function FeedbackCarrousel() {
         location={'Brighton & Hove Albion'} 
         image={'author.png'} 
       />
-    </div>
+    </Carousel>
   )
 }
 
