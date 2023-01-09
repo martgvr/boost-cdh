@@ -28,15 +28,69 @@
     margin-bottom: 186px;
 }
 
-.prices__subtitle p:first-of-type {
-    width: 184px;
-}
-
-.prices__subtitle p {
+.prices__subtitle > p {
     width: 516px;
+    text-align: center;
 }
 
 .prices__cards {
     display: flex;
     gap: 64px;
+}
+
+.prices__subtitle--select {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 184px;
+}
+
+.prices__subtitle--select p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.select select {
+    appearance: none;
+    width: 184px;
+    height: 40px;
+    
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #FFFFFF;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    padding: 10px;
+    outline: none;
+
+    appearance: none;
+    background-image: url("/public/select.png");
+    background-repeat: no-repeat;
+    background-position: right 11.13px top 50%;
+    background-size: 15.33px;
+}
+
+.select select option {
+    /* border: none; */
+    /* outline: none; */
+    padding: 22px 53px 10px 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #333333; 
+
+    /* background-color: aqua; */
 }

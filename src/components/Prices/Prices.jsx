@@ -7,7 +7,19 @@ function Prices() {
     <div className='prices' id='prices'>
       <h1>Tarifario</h1>
       <div className='prices__subtitle'>
-        <p>Drop</p>
+
+        <div className='prices__subtitle--select'>
+          <p>Selecciona tu moneda</p>
+
+          <div className='select'>
+            <select>
+              <option value="ARS">Peso Argentino</option>
+              <option value="USD">Dolar USD</option>
+            </select>
+          </div>
+          
+        </div>
+
         <p>Estamos comprometidos con el despegue de tu negocio ¡Somos tu mejor opción!</p>
       </div>
       <div className='prices__cards'>
