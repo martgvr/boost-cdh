@@ -6,11 +6,26 @@
     padding: 100px;
 }
 
-.works h2 {
+.works > h2 {
     margin-bottom: 81px;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     text-align: center;
     color: #75BFB2;
+    z-index: 3;
+}
+
+.works > img:nth-child(2) {
+    position: absolute;
+    width: 100%;
+    top: 6430px;
+    z-index: 1;
+}
+
+.works > img:nth-child(4) {
+    position: absolute;
+    width: 100%;
+    top: 6900px;
+    z-index: 1;
 }

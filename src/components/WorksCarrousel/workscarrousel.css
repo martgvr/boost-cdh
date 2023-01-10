@@ -5,3 +5,19 @@
     width: 100%;
     height: 400px;
 }
+
+.worksContainer {
+    width: 100%;
+}
+
+.worksCard {
+    margin-right: 30px;
+    max-width: 270px;
+    height: 400px;
+}
+
+.worksCard img {
+    object-fit: cover;
+    max-width: 100%;
+    height: 100%;
+}
