@@ -49,20 +49,24 @@
     width: 40%;
 }
 
+.who__images {
+    position: relative;
+}
+
 .who img:first-of-type {
     border-radius: 16px;
+    width: fit-content;
+    height: fit-content;
     position: absolute;
-    width: 506px;
-    height: 431px;
-    left: 1300px;
-    top: 1930px;
+    top: -255px;
+    right: 0px;
 }
 
 .who img {
+    width: fit-content;
+    height: fit-content;
     position: absolute;
-    width: 284px;
-    height: 468px;
-    left: 1100px;
-    top: 2150px;
+    top: -40px;
+    right: 430px;
     border-radius: 16px;
 }
