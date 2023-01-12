@@ -14,6 +14,22 @@
     width: fit-content;
     height: fit-content;
     position: absolute;
-    top: -268px;
+    top: -233px;
     right: -100px;
+}
+
+.separatororange2 {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: -240px;
+    right: -100px; 
+}
+
+.separatoraqua2 {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: -233px;
+    right: -100px; 
 }

@@ -49,3 +49,19 @@
     top: 100px;
     left: -100px;
 }
+
+.separatororange1 {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 18px;
+    left: -100px; 
+}
+
+.separatoraqua1 {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 42px;
+    left: -55px; 
+}

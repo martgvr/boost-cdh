@@ -13,6 +13,8 @@ function Works() {
         <WorksCarrousel />
         <div className='separator1'>
           <img src="separatorvector1.png" alt="" className='separatorvector1'/>
+          <img src="separatororange1.png" alt="" className='separatororange1'/>
+          <img src="separatoraqua1.png" alt="" className='separatoraqua1'/>
         </div>
     </div>
   )

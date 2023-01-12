@@ -14,10 +14,6 @@
     margin-bottom: 138px;
 }
 
-.contact__container--image {
-    z-index: 1;
-}
-
 .contact__container--image img {
     width: 466px;
     height: 646px;

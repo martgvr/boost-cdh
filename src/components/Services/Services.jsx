@@ -33,6 +33,8 @@ function Services() {
       />
       <div className='separator2'>
         <img src="separatorvector2.png" alt="" className='separatorvector2'/>
+        <img src="separatororange2.png" alt="" className='separatororange2'/>
+          <img src="separatoraqua2.png" alt="" className='separatoraqua2'/>
       </div>
     </div>
   )
