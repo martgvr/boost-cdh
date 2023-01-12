@@ -55,7 +55,7 @@ function Prices() {
         <p>Estamos comprometidos con el despegue de tu negocio ¡Somos tu mejor opción!</p>
       </div>
       <div className='prices__cards'>
-        { services.map(service => <PriceCard title={service.name} price={coinSelected === 'USD' ? service.prices[0].price : service.prices[1].price} color={service.color} services={service.services} />) }
+        { services.map(service => <PriceCard key={service.name} title={service.name} price={coinSelected === 'USD' ? service.prices[0].price : service.prices[1].price} color={service.color} services={service.services} />) }
       </div>
     </div>
   )

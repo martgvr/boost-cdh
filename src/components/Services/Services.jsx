@@ -6,6 +6,7 @@ function Services() {
   return (
     <div className='services' id='services'>
       <ServiceCard 
+        key={'1'}
         layout={'left'} 
         title={'nuestros servicios'} 
         image={'service1.png'} 
@@ -15,6 +16,7 @@ function Services() {
       />
 
       <ServiceCard 
+        key={'2'}
         layout={'right'} 
         title={'nuestros servicios'} 
         image={'service2.png'} 
@@ -24,6 +26,7 @@ function Services() {
       />
 
       <ServiceCard 
+        key={'3'}
         layout={'left'}
         title={'nuestros servicios'}
         image={'service3.png'}

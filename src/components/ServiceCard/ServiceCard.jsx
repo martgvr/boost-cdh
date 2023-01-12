@@ -13,7 +13,7 @@ function ServiceCard({ image, title, subtitle, description, items, layout }) {
             <h2>{subtitle}</h2>
             <p>{description}</p>
             <ul className='servicecard__description--list'>
-                { items.map(item => <li>/ {item}</li>) }
+                { items.map(item => <li key={item}>/ {item}</li>) }
             </ul>
         </div>
     </div>

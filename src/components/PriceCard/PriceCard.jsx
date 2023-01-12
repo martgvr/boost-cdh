@@ -13,7 +13,7 @@ function PriceCard({ title, price, services, color }) {
                 <p>/mes</p>
             </div>
             <ul className="price__card--list">
-                { services.map(service => <li><img src="item.png" alt="" />{service}</li>) }
+                { services.map(service => <li key={service}><img src="item.png" alt="" />{service}</li>) }
             </ul>
             <Button text={"Más información"} />
         </div>
