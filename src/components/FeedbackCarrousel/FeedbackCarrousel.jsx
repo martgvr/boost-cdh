@@ -7,8 +7,8 @@ import 'react-multi-carousel/lib/styles.css';
 
 const responsive = {
   desktop: { breakpoint: { max: 2000, min: 1024 }, items: 2, slidesToSlide: 3 },
-    tablet: { breakpoint: { max: 1700, min: 464 }, items: 2, slidesToSlide: 2 },
-    mobile: { breakpoint: { max: 900, min: 0 }, items: 1, slidesToSlide: 1 }
+    tablet: { breakpoint: { max: 1700, min: 464 }, items: 1, slidesToSlide: 2 },
+    mobile: { breakpoint: { max: 900, min: 0 }, items: 1, slidesToSlide: 4 }
 };
 
 const CustomDot = ({ onMove, index, onClick, active }) => {
