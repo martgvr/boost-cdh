@@ -31,6 +31,9 @@ function Services() {
         items={[ 'Diseño y creación de logo', 'Identidad corporativa', 'Manual de marca.' ]}
         description={'Construimos tu marca mediante la gestión planificada de todos los procesos gráficos, comunicacionales y de posicionamiento que se llevan a cabo. El objetivo principal del branding es extender la marca de la empresa en el mercado, posicionarla y ubicarla en la mente de los consumidores.'}
       />
+      <div className='separator2'>
+        <img src="separatorvector2.png" alt="" className='separatorvector2'/>
+      </div>
     </div>
   )
 }

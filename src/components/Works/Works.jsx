@@ -6,9 +6,14 @@ function Works() {
   return (
     <div className='works'>
         <h2>Un poco de nuestros trabajos realizados...</h2>
-        <img src="elipse.png" alt="" />
+        <div className='elipses__container'>
+          <img src="elipse.png" alt="" />
+          <img src="elipse.png" alt="" />
+        </div>
         <WorksCarrousel />
-        <img src="elipse.png" alt="" />
+        <div className='separator1'>
+          <img src="separatorvector1.png" alt="" className='separatorvector1'/>
+        </div>
     </div>
   )
 }
