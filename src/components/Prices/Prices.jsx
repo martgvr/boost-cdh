@@ -63,7 +63,6 @@ function Prices() {
                       <p>Peso Argentino</p>
                       <img src="coin-ars.png" alt="" />
                     </div>
-
                     <div className='option' onClick={() => selectCoinHadler('USD')}>
                       <p>Dólares</p>
                       <img src="coin-usd.png" alt="" />
@@ -71,7 +70,7 @@ function Prices() {
                   </div>
                 </div>
               }
-        </>
+          </>
         </div>
         <p>Estamos comprometidos con el despegue de tu negocio ¡Somos tu mejor opción!</p>
       </div>
