@@ -50,7 +50,6 @@ function Prices() {
       <div className='prices__subtitle'>
         <div className='prices__subtitle--select'>
           <p>Selecciona tu moneda</p>
-
           <>
             <div className='select' onPointerEnter={selectClickHandler} style={{ 'border': isShown && '1px solid #F29422' }}>
               <div>{coinSelected}</div>
@@ -73,7 +72,6 @@ function Prices() {
                 </div>
               }
         </>
-        
         </div>
         <p>Estamos comprometidos con el despegue de tu negocio ¡Somos tu mejor opción!</p>
       </div>
