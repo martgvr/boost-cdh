@@ -10,7 +10,6 @@ function Success() {
       <Button text={'Finalizar'} width={'186px'}/>
       <img src="loadinglinestop.png" alt="" className='successline1'/>
       <img src="loadinglinesbottom.png" alt="" className='successline2'/>
-
     </div>
   )
 }
