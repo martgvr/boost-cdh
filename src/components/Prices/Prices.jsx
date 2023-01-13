@@ -8,8 +8,8 @@ const services = [
     color: '#75BFB2',
     services: [ 'Servicio 1', 'Servicio 2' ],
     prices: [
-      { code: 'USD', price: '$99' },
-      { code: 'ARS', price: '$35.000' }
+      { code: 'USD', price: 99 },
+      { code: 'ARS', price: 35000 }
     ]
   },
   {
@@ -17,8 +17,8 @@ const services = [
     color: '#F29422',
     services: [ 'Servicio 1', 'Servicio 2' ],
     prices: [
-      { code: 'USD', price: '$199' },
-      { code: 'ARS', price: '$71.600' }
+      { code: 'USD', price: 199 },
+      { code: 'ARS', price: 71600 }
     ]
   },
   {
@@ -26,14 +26,15 @@ const services = [
     color: '#BF4226',
     services: [ 'Servicio 1', 'Servicio 2', 'Servicio 3' ],
     prices: [
-      { code: 'USD', price: '$299' },
-      { code: 'ARS', price: '$107.640' }
+      { code: 'USD', price: 299 },
+      { code: 'ARS', price: 107640 }
     ]
   }
 ]
 
 function Prices() {
   const [ coinSelected, setCoinSelected ] = useState('USD');
+  const [ USDBluePrice, setUSDBluePrice ] = useState(0);
   const [ isShown, setIsShown ] = useState(false);
 
   const selectClickHandler = () => setIsShown(true)
@@ -42,6 +43,11 @@ function Prices() {
   function selectCoinHadler(coin) {
     setCoinSelected(coin)
     setIsShown(false)
+
+    if (coin === 'ARS') {
+      const URL = 'https://api.bluelytics.com.ar/v2/latest'
+      fetch(URL).then(response => response.json()).then(data => setUSDBluePrice(data.blue.value_avg))
+    }
   }
 
   return (
@@ -75,7 +81,7 @@ function Prices() {
         <p>Estamos comprometidos con el despegue de tu negocio ¡Somos tu mejor opción!</p>
       </div>
       <div className='prices__cards'>
-        { services.map(service => <PriceCard key={service.name} title={service.name} price={coinSelected === 'USD' ? service.prices[0].price : service.prices[1].price} color={service.color} services={service.services} />) }
+        { services.map(service => <PriceCard key={service.name} title={service.name} price={coinSelected === 'USD' ? service.prices[0].price : (service.prices[0].price * USDBluePrice)} color={service.color} services={service.services} />) }
       </div>
     </div>
   )
