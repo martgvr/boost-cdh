@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Dropdown from '../Dropdown/Dropdown';
 import PriceCard from '../PriceCard/PriceCard'
 import './prices.css'
 
@@ -35,22 +36,13 @@ const services = [
 function Prices() {
   const [ coinSelected, setCoinSelected ] = useState('USD');
 
-  function changeCoinHandler(e) {
-    setCoinSelected(e.target.value);
-  }
-
   return (
     <div className='prices' id='prices'>
       <h1>Tarifario</h1>
       <div className='prices__subtitle'>
         <div className='prices__subtitle--select'>
           <p>Selecciona tu moneda</p>
-          <div className='select'>
-            <select id='select' value={coinSelected} onChange={changeCoinHandler}>
-              <option value="USD">Dolar USD</option>
-              <option value="ARS">Peso Argentino</option>
-            </select>
-          </div>
+          <Dropdown />
         </div>
         <p>Estamos comprometidos con el despegue de tu negocio ¡Somos tu mejor opción!</p>
       </div>
